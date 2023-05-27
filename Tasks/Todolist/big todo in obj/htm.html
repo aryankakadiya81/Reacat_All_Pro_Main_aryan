@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>
+        #UpdateForm {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="bg-secondary bg-opacity-25">
+
+    <div class="mt-5">
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="card w-50 shadow">
+                <div class="card-body">
+                    <h2 class="card-title d-flex justify-content-center fs-1">List</h2>
+
+
+
+
+                    <form action="javascript:void(0);" id="addForm" class="mb-3">
+                        <input type="text" class="form-control" id="inputName" placeholder="Name" required>
+                        <input type="tel" class="form-control" id="inputNumber" placeholder="Number" required>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+
+                        <input class="btn btn-outline-secondary " onclick="create()" type="submit">
+                    </form>
+
+                    
+                   
+
+
+
+
+
+                    
+                    <form action="javascript:void(0);" id="UpdateForm" class="mb-3">
+                        <div class="d-flex">
+                            <input type="text" class="form-control " id="updateNametask" placeholder="Name">
+                            <input type="text" class="form-control " id="updateNumbertask" placeholder="Number">
+                            <input type="text" class="form-control " id="updateEmailtask" placeholder="E-mail">
+                            <input class="btn btn-outline-secondary " type="submit" value="Update"><a
+                                onclick="CloseInput()" id="close"></a>
+                        </div>
+                    </form>
+
+
+                    
+                    <table class="ms-5 col-10">
+                        <tbody id="mytodo-tasks"></tbody>
+                    </table>
+
+
+
+
+            
+                    <div class="d-flex justify-content-center">
+
+                        <button class="btn btn-outline-secondary" id="clrlst" onclick="CLEARlist()">Clear List</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var arr = [];
+        var obj = {}
+        // var numberList = [];
+        // var emailList = [];
+        function create() {
+            var inputName = document.getElementById("inputName").value;
+            obj.Name.push(inputName);
+            readTask();
+
+            var inputNumber = document.getElementById("inputNumber").value;
+            obj.Number.push(inputNumber);
+            readTask();
+
+            var inputEmail = document.getElementById("inputEmail").value;
+            obj.Email.push(inputEmail); 
+            readTask();
+        }
+
+        function readTask() {
+            var data = "";
+            for (var i = 0; i < nameList.length; i++) {
+                data += '<tr class="col-10 ms-5">';
+                data += '<td class="col-3 p-2 " >' + nameList[i] + '</td>';
+                data += '<td class="col-3 p-2 " >' + numberList[i] + '</td>';
+                data += '<td class="col-3 p-2 " >' + emailList[i] + '</td>';
+                data += '<td class="col-1 "><button class="border border-0 ms-5" onclick=UpdateTask(' + i + ')><i class="fa-sharp fa-solid fa-pen-to-square fs-5 "></i></button></td>';
+                data += '<td class="col-1 " ><button id="dlt" class="ms-2 border border-0" onclick=DeleteTask(' + i + ')><i class="fa-solid fa-trash-can fs-5 text-danger "></i></button></td>';
+                data += '</tr>';
+            }
+            document.getElementById("mytodo-tasks").innerHTML = data;
+        }
+        readTask();
+
+
+        function UpdateTask(item) {
+
+            document.getElementById("UpdateForm").style.display = 'block';
+
+            document.getElementById("updateNametask").value = nameList[item];
+            document.getElementById("updateNumbertask").value = numberList[item];
+            document.getElementById("updateEmailtask").value = emailList[item];
+
+
+            document.getElementById("UpdateForm").onsubmit = function()  {
+            var updateName = document.getElementById("updateNametask").value;
+            var updateNumber = document.getElementById("updateNumbertask").value;
+            var updateEmail = document.getElementById("updateEmailtask").value;
+                nameList.splice(item, 1, updateName.trim());
+                numberList.splice(item, 1, updateNumber.trim());
+                emailList.splice(item, 1, updateEmail.trim());
+
+
+                readTask();
+                CloseInput();
+            }
+
+        }
+        /*DELETE*/
+        function DeleteTask(item) {
+            nameList.splice(item, 1);
+            numberList.splice(item, 1);
+            emailList.splice(item, 1);
+            readTask();
+
+        }
+
+        function CloseInput() {
+            document.getElementById("UpdateForm").style.display = 'none';
+        }
+
+        function CLEARlist() {
+            nameList.length = 0;
+            numberList.length = 0;
+            emailList.length = 0;
+            readTask();
+        }
+
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand text-dark" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Link</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- ============================================================================================= -->
+
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registerModal">
+    Create card
+</button><br><br>
+
+
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="d-flex justify-content-between">
+                <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                <div class="modal-header d-flex justify-content-center border-0 fs-3">
+                    <b>Create Card</b>
+                </div>
+                <button type="button" class="btn-close m-4" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body mt-0">
+              <div class="border-bottom mb-2 border-3 col-11 ms-2 mt-3">
+                <input type="text" class="form-control border-0" placeholder="Name" id="Name"/>
+            </div>
+                <div class="border-bottom mb-2 border-3 col-11 ms-2">
+                    <input type="email" class="form-control border-0" placeholder="Email" id="Email"/>
+                </div>
+                <div class="border-bottom mb-2 border-3 col-11 ms-2">
+                    <input type="text" class="form-control border-0" placeholder="Qualification" id="Qualification"/>
+                </div>
+                <div class="border-bottom mb-2 border-3 col-11 ms-2">
+                  <input type="tel" class="form-control border-0" placeholder="Contact" id="Contact"/>
+              </div>
+              <div class="border-bottom mb-2 border-3 col-11 ms-2">
+                <input type="text" class="form-control border-0" placeholder="Address" id="Address"/>
+            </div>
+                
+
+                <div class="d-flex align-items-center justify-content-center mt-5">
+                    <button type="submit" class="btn btn-primary rounded-pill px-5 col-10" onclick="creatCard()" data-bs-dismiss="modal">Create</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- ================================================================================================ -->
+  
+
+
+
+
+  <div class="row mt-5 mx-3" id="maindiv">
+    <!-- <div class="card" style="width: 18rem;">
+            <img src="./assat/img-2.jpg" class="card-img-top" alt="...">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Name: Vijay shankar</li>
+                <li class="list-group-item">Email: vijay123@gmail.com</li>
+                <li class="list-group-item">Qualification: 12th pass</li>
+                <li class="list-group-item">Contect: 9876543212</li>
+                <li class="list-group-item">Address: Kamrej</li>
+
+
+            </ul>
+        </div> -->
+  </div>
+  <hr class="text-dark my-5">
+
+
+
+
+
+
+  <!-- ============================================================================== -->
+
+  <div class="d-flex justify-content-center mt-5">
+    <footer class="footer-classic context-dark bg-light w-100 px-5 py-5">
+      <div class="container">
+        <div class="row row-30">
+          <div class="col-md-4 col-xl-5">
+            <div class="pr-xl-4 text-dark">
+              <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion,
+                business consulting, and marketing.</p>
+              <p class="rights"><span>©</span><span
+                  class="copyright-year">2018</span><span></span><span>Waves</span><span>.</span><span>All Rights
+                  Reserved.</span></p>
+            </div>
+          </div>
+          <div class="col-md-4 text-dark">
+            <h5>Contacts</h5>
+            <dl class="contact-list">
+              <dt>Address:</dt>
+              <dd>798 South Park Avenue, Jaipur, Raj</dd>
+            </dl>
+            <dl class="contact-list">
+              <dt>email:</dt>
+              <dd><a href="mailto:#">dkstudioin@gmail.com</a></dd>
+            </dl>
+            <dl class="contact-list">
+              <dt>phones:</dt>
+              <dd><a href="tel:#">https://karosearch.com</a> <span>or</span> <a href="tel:#">https://karosearch.com</a>
+              </dd>
+            </dl>
+          </div>
+          <div class="col-md-4 col-xl-3 text-dark">
+            <h5>Links</h5>
+            <ul class="nav-list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contacts</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row no-gutters social-container">
+        <div class="col"><a class="social-inner" href="#"><span
+              class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span
+              class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span
+              class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+        <div class="col"><a class="social-inner" href="#"><span
+              class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    let arr = [
+      // {
+      //   Name: "Chaman lal",
+      //   Email: "chaman@gmail.com",
+      //   Qualification: "10th Pass",
+      //   Contect: "9876543201",
+      //   Address: "Bihar"
+      // },
+    //   {
+    //     Name: "Alia Bhatt",
+    //     Email: "aliabhatt@gmail.com",
+    //     Qualification: "10th fail",
+    //     Contect: "9988223344",
+    //     Address: "Mumbai"
+    //   },
+    //   {
+    //     Name: "Wang zu",
+    //     Email: "wangzu@gmail.com",
+    //     Qualification: "BA",
+    //     Contect: "9988227644",
+    //     Address: "Mumbai"
+    //   },
+    //   {
+    //     Name: "Devendra Mishra",
+    //     Email: "mishra@gmail.com",
+    //     Qualification: "No",
+    //     Contect: "9900227644",
+    //     Address: "Haryana"
+    //   },
+    //   {
+    //     Name: "Pappu(Rahul gandhi)",
+    //     Email: "pappugandhi@gmail.com",
+    //     Qualification: "LLB",
+    //     Contect: "9987227644",
+    //     Address: "Godhara"
+    //   },
+    //   {
+    //     Name: "Unknown Person",
+    //     Email: "???????",
+    //     Qualification: "-",
+    //     Contect: "-",
+    //     Address: "-"
+    //   },
+    //   {
+    //     Name: "Unknown Person",
+    //     Email: "???????",
+    //     Qualification: "-",
+    //     Contect: "-",
+    //     Address: "-"
+    //   }
+    ];
+
+    // -------------------------------------------------------------------------------------------------------
+    // data = "";
+    // let i=0;
+    // while(i<=arr.length) 
+    // {
+
+    //     data += '<div class="col-3 mt-4">';
+    //     data += '<div class="card" style="width: 18rem;">';
+    //     data += '<img src="./assat/img-' + (i + 1) + '.jpg" class="card-img-top h-50" alt="...">'
+    //     data += '<ul class="list-group list-group-flush">';
+    //     data += '<li class="fw-bold list-group-item">Name : ' + arr[i].Name + '</li>';
+    //     data += '<li class="fw-bold list-group-item">Email : ' + arr[i].Email + '</li>';
+    //     data += '<li class="fw-bold list-group-item">Qualification : ' + arr[i].Qualification + '</li>';
+    //     data += '<li class="fw-bold list-group-item">Contect : ' + arr[i].Contect + '</li>';
+    //     data += '<li class="fw-bold list-group-item">Address : ' + arr[i].Address + '</li>';
+    //     data += '</ul>';
+    //     data += '</div>';
+    //     data += '</div>';
+
+    //     document.getElementById("maindiv").innerHTML = data;
+    //     i++;
+    // };
+
+
+
+    // -----------------------------------------------------------------------------------
+
+function creatCard() {
+  let obj = {}
+  let Name = document.getElementById("Name").value;
+  let Email = document.getElementById("Email").value;
+  let Qualification = document.getElementById("Qualification").value;
+  let Contact = document.getElementById("Contact").value;
+  let Address = document.getElementById("Address").value;
+  
+  obj.Name = Name;
+  obj.Email = Email;
+  obj.Qualification = Qualification;
+  obj.Contect = Contact;
+  obj.Address = Address;
+  
+
+  arr.push(obj);
+  // arr.length = 0;
+  method()
+  }
+
+
+
+    // -------------------------------------------------------------------------------------------------------------
+    const maindiv = document.querySelector('#maindiv');
+    let i = 1;
+
+    function method() {
+      arr.map((data) => {
+        arr.shift();
+
+        let creatDiv = document.createElement('div');
+        creatDiv.classList.add('col-3');
+        creatDiv.classList.add('mt-4');
+        creatDiv.innerHTML = `
+        
+        
+          <div class="card" style="width: 18rem;">
+            <img src="./assat/img-${i}.jpg" class="card-img-top h-50" alt="...">
+              <ul class="list-group list-group-flush">
+                <li class="fw-bold list-group-item">Name : ${data.Name}</li>
+                <li class="fw-bold list-group-item">Email : ${data.Email}</li>
+                <li class="fw-bold list-group-item">Qualification : ${data.Qualification}</li>
+                <li class="fw-bold list-group-item">Contect : ${data.Contect}</li>
+                <li class="fw-bold list-group-item">Address : ${data.Address}</li>
+            </ul>
+        </div>`
+        maindiv.appendChild(creatDiv);
+        i++;
+      })
+    }
+
+    method()
+
+
+  </script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+
+</html>
