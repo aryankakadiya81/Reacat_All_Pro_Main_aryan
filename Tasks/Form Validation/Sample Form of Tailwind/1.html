@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="flex justify-center mt-10">
+        <div class="flex md:w-1/2 justify-center py-10 items-center bg-white">
+            <form class="bg-white">
+                <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4" id="nameDiv">
+                    <input class="pl-2 outline-none border-none" type="text" name="" id="Name"
+                        placeholder="Full name"/>
+                </div>
+                <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
+
+                    <input class="pl-2 outline-none border-none" type="text" name="" id="Uname"
+                        placeholder="Username" />
+                </div>
+                <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
+                    <input class="pl-2 outline-none border-none" type="text" name="" id="Email"
+                        placeholder="Email Address" />
+                </div>
+                <div class="flex items-center border-2 py-2 px-3 rounded-2xl">
+                    <input class="pl-2 outline-none border-none" type="text" name="" id="Password"
+                        placeholder="Password"/>
+                </div>
+                <button type="submit"
+                    class="block w-full bg-indigo-600 mt-4 py-2 rounded-2xl text-white font-semibold mb-2" onclick="Validate()">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        
+        function Validate()
+        {
+            let Uname = document.getElementById("Uname").value;
+            let Email = document.getElementById("Email").value;
+            let Name = document.getElementById("Name").value;
+            let Password = document.getElementById("Password").value;
+            
+            let Emailreg = document.getElementById("Email").value.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/g); 
+            let Passwordreg = document.getElementById("Password").value.match(/^[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*$/g)
+
+            if(Name == "" && Email == "" && Uname == "" && Password == "")
+            {
+                window.alert("Please Fill the Details");
+                return 0;
+            }
+
+            else if(Name == "")
+            {
+                window.alert("Please Fill Name");
+                return 0;
+            }
+
+            else if(Uname == "")
+            {
+                window.alert("Please Fill Username");
+                return 0;
+            }
+            else if(Uname.length >= 16)
+            {
+                window.alert("Username is very long");
+                return 0;
+            }
+            else if(Email == "")
+            {
+                window.alert("Please Fill Email");
+                return 0;
+            }
+
+            else if(Password == "")
+            {
+                window.alert("Please Fill Password");
+                return 0;
+            }
+            if(Email != Emailreg)
+            {
+                window.alert("Enter valid Email");
+                return 0;
+            }
+            if(Password != Passwordreg)
+            {
+                window.alert("Password not Matched");
+                return 0;
+            }
+            window.alert("Form Submitted Successfully");
+            
+        }
+    </script>
+</body>
+
+</html>
