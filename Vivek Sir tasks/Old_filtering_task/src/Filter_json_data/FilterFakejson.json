@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "Aryan's Story",
+        "type":"Logical",
+        "userId": 26
+    },
+    {
+        "id": 2,
+        "title": "Darshan's story",
+        "type":"Logical",
+         "userId": 48
+    },
+    {
+        "id": 3,
+        "title": "Shubham's story",
+        "type":"Fraud",
+        "userId": 40
+    },
+    {
+        "id": 4,
+        "title": "Shyam's story",
+        "type":"Fraud",
+        "userId": 48
+    },
+    {
+        "id": 5,
+        "title": "Rohan's story",
+        "type":"Drama",
+        "userId": 31
+    },
+    {
+        "id": 6,
+        "title": "Jay's story",
+        "type":"Love",
+        "userId": 39
+    },
+    {
+        "id": 7,
+        "title": "Vivek's story",
+        "type":"Love",
+        "userId": 32
+    },
+    {
+        "id": 8,
+        "title": "Utsav's story",
+        "type":"Love",
+        "userId": 13
+    },
+    {
+        "id": 9,
+        "title": "Mayur's story",
+        "type":"Love",
+        "userId": 47
+    },
+    {
+        "id": 10,
+        "title": "Neel's story",
+        "type":"Drama",
+        "userId": 19
+    },
+    {
+        "id": 11,
+        "title": "Kaushik's story",
+        "type":"Drama",
+        "userId": 39
+    },
+    {
+        "id": 12,
+        "title": "Organize story",
+        "type":"Drama",
+        "userId": 39
+    },
+    {
+        "id": 13,
+        "title": "Buy a new house decoration",
+        "type":"Drama",
+        "userId": 16
+    },
+    {
+        "id": 14,
+        "title": "Plan a vacation I've always wanted to take",
+        "type":"Logical",
+        "userId": 28
+    },
+    {
+        "id": 15,
+        "title": "Clean out car",
+        "type":"Love",
+        "userId": 33
+    }
+]
