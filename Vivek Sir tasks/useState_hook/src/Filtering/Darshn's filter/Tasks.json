@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "img": "https://m.media-amazon.com/images/I/51d7yB5cETL.jpg",
+        "name": "story of action",
+        "type": "action",
+        "price": "500.00",
+        "discripation": "This is neither a secret nor a revelation, so why do we keep chasing the idea of a happy tomorrow and the happiness of today escapes us?"
+    },
+    {
+        "id": 2,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoe5PYMYrJONBB1HN_179BWCg2UHw9TwdrR2X_qb61ouy0XoSkHW5z9uQu30eh9uJwsjo&usqp=CAU",
+        "name": "story of love",
+        "type": "love",
+        "price": "520.00",
+        "discripation": "This is neither a secret nor a revelation, so why do we keep chasing the idea of a happy tomorrow and the happiness of today escapes us?"
+    },
+    {
+        "id": 3,
+        "img": "https://m.media-amazon.com/images/I/61ypD8fjm9L._AC_UF1000,1000_QL80_.jpg",
+        "name": "story of drama",
+        "type": "drama",
+        "price": "390.00",
+        "discripation": "This is neither a secret nor a revelation, so why do we keep chasing the idea of a happy tomorrow and the happiness of today escapes us?"
+    },
+    {
+        "id": 4,
+        "img": "https://fivebooks.com/app/uploads/2010/12/0450040186.01.LZ_.jpg",
+        "name": "story of drama part-2",
+        "type": "drama",
+        "price": "330.00",
+        "discripation": "This is neither a secret nor a revelation, so why do we keep chasing the idea of a happy tomorrow and the happiness of today escapes us?"
+    },
+    {
+        "id": 5,
+        "img": "https://m.media-amazon.com/images/I/51pzjSCv6FL.jpg",
+        "name": "Thriller action",
+        "type": "action",
+        "price": "300.00",
+        "discripation": "This is neither a secret nor a revelation, so why do we keep chasing the idea of a happy tomorrow and the happiness of today escapes us?"
+    },
+    {
+        "id": 6,
+        "img": "https://storage.googleapis.com/rocky-production/vertical_storycovers/ipad_541ea515365990319622c3c9818ed52c.jpg",
+        "name": "my's story",
+        "type": "love",
+        "price": "250.00",
+        "discripation": "This is neither a secret nor a revelation, so why do we keep chasing the idea of a happy tomorrow and the happiness of today escapes us?"
+    },
+    {
+        "id": 7,
+        "img": "https://resize.img.allw.mn/filters:format(webp)/filters:quality(70)/content/books/2013/08/1_the-silent-wife_600x918.jpg",
+        "name": "motu and patlu",
+        "type": "drama",
+        "price": "900.00",
+        "discripation": "This is neither a secret nor a revelation, so why do we keep chasing the idea of a happy tomorrow and the happiness of today escapes us?"
+    },
+    {
+        "id": 8,
+        "img": "https://m.media-amazon.com/images/I/51qE5LN8T3L.jpg",
+        "name": "how it's possible!",
+        "type": "action",
+        "price": "300.00",
+        "discripation": "This is neither a secret nor a revelation, so why do we keep chasing the idea of a happy tomorrow and the happiness of today escapes us?"
+    },
+    {
+        "id": 9,
+        "img": "https://imgix.ranker.com/list_img_v2/8194/348194/original/drama-books-u2?fit=crop&fm=pjpg&q=60&dpr=2&w=1200&h=720",
+        "name": "motu and patlu part-2",
+        "type": "drama",
+        "price": "950.00",
+        "discripation": "This is neither a secret nor a revelation, so why do we keep chasing the idea of a happy tomorrow and the happiness of today escapes us?"
+    },
+    {
+        "id": 10,
+        "img": "https://prodimage.images-bn.com/pimages/9780593334836_p0_v2_s192x300.jpg",
+        "name": "you and me",
+        "type": "love",
+        "price": "450.00",
+        "discripation": "This is neither a secret nor a revelation, so why do we keep chasing the idea of a happy tomorrow and the happiness of today escapes us?"
+    },
+    {
+        "id": 11,
+        "name": "have a fun",
+        "img": "https://m.media-amazon.com/images/I/51f4+d2Qa6L.jpg",
+        "type": "action",
+        "price": "440.00",
+        "discripation": "This is neither a secret nor a revelation, so why do we keep chasing the idea of a happy tomorrow and the happiness of today escapes us?"
+    },
+    {
+        "id": 12,
+        "img": "https://images-platform.99static.com//Pg6xuwKP8FDD-v1MYwtODgfLHMQ=/280x0:1649x1369/fit-in/590x590/99designs-contests-attachments/66/66281/attachment_66281301",
+        "name": "celver boy",
+        "type": "drama",
+        "price": "980.00",
+        "discripation": "This is neither a secret nor a revelation, so why do we keep chasing the idea of a happy tomorrow and the happiness of today escapes us?"
+    },
+    {
+        "id": 13,
+        "img": "https://i.guim.co.uk/img/media/53465de5cbbdd6ea9a0f224102c7f03617ab202b/269_94_4110_2466/master/4110.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=d167bb388b06f3c25cd577e15469f52e",
+        "name": "majnu story",
+        "type": "love",
+        "price": "399.00",
+        "discripation": "This is neither a secret nor a revelation, so why do we keep chasing the idea of a happy tomorrow and the happiness of today escapes us?"
+    },
+    {
+        "id": 14,
+        "img": "https://i.harperapps.com/covers/9780062872661/x190.jpg",
+        "name": "smart boy",
+        "type": "action",
+        "price": "599.00",
+        "discripation": "This is neither a secret nor a revelation, so why do we keep chasing the idea of a happy tomorrow and the happiness of today escapes us?"
+    },
+    {
+        "id": 15,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBC-2lmmBptQJvJa6M_TAatwbxS20-RWbVU5DXB_TNVqQPeLWN4w-JCyyjt95DcVbGSCs&usqp=CAU",
+        "name": "celver boy part-2",
+        "type": "drama",
+        "price": "999.00",
+        "discripation": "This is neither a secret nor a revelation, so why do we keep chasing the idea of a happy tomorrow and the happiness of today escapes us?"
+    }
+]

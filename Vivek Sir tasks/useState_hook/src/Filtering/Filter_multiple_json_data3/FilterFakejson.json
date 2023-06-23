@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "img": "https://m.media-amazon.com/images/I/41igArMU8bL._SX391_BO1,204,203,200_.jpg",
+        "title": "Logic Primer",
+        "type": "Logical",
+        "users": 26,
+        "describe": "Logic Primer presents a rigorous introduction to natural deduction systems of sentential and first-order logic.",
+        "author": "Colin Allen, Michael Hand"
+    },
+    {
+        "id": 2,
+        "img": "https://m.media-amazon.com/images/I/51NSW-nokdL._SX326_BO1,204,203,200_.jpg",
+        "title": "Logic",
+        "type": "Logical",
+        "users": 48,
+        "describe": "If a man supports Arsenal one day and Spurs the next then he is fickle but not necessarily illogical.",
+        "author": "Wilfrid Hodges"
+    },
+    {
+        "id": 3,
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1523311515i/37976541.jpg",
+        "title": "Bad Blood",
+        "type": "Fraud",
+        "users": 40,
+        "describe": "The full inside story of the breathtaking rise and shocking collapse of a multibillion-dollar startup.",
+        "author": "John Carreyrou"
+    },
+    {
+        "id": 4,
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1309204701i/113576.jpg",
+        "title": "The Smartest Guys in the Room",
+        "type": "Fraud",
+        "users": 48,
+        "describe": "There were dozens of books about Watergate.",
+        "author": "Bethany McLean"
+    },
+    {
+        "id": 5,
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1679096153i/54239960.jpg",
+        "title": "Like You Know",
+        "type": "Drama",
+        "users": 31,
+        "describe": "There are exactly three people in this whole world who know my secrets.",
+        "author": "Kaydence Snow"
+    },
+    {
+        "id": 6,
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1557343311i/10210.jpg",
+        "title": "Jane Eyre",
+        "type": "Love",
+        "users": 39,
+        "describe": "Orphaned as a child, Jane has felt an outcast her whole young life.",
+        "author": "Charlotte Brontë"
+    },
+    {
+        "id": 7,
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1361039443i/41865.jpg",
+        "title": "Twilight",
+        "type": "Love",
+        "users": 32,
+        "describe": "About three things I was absolutely positive.",
+        "author": "Stephenie Meyer"
+    },
+    {
+        "id": 8,
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1483183484i/33648131.jpg",
+        "title": "The Notebook",
+        "type": "Love",
+        "users": 13,
+        "describe": "Set amid the austere beauty of the North Carolina coast begins the story of Noah Calhoun.",
+        "author": "Nicholas Sparks"
+    },
+    {
+        "id": 9,
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1629680008i/18135.jpg",
+        "title": "Romeo and Juliet",
+        "type": "Love",
+        "users": 47,
+        "describe": "In Romeo and Juliet, Shakespeare creates a violent world, in which two young people fall in love.",
+        "author": "William Shakespeare"
+    },
+    {
+        "id": 10,
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680077041i/62854808.jpg",
+        "title": "Summer Stage",
+        "type": "Drama",
+        "users": 19,
+        "describe": "A spirited summer page-turner following a family of actors grappling with fame.",
+        "author": "Meg Mitchell Moore"
+    },
+    {
+        "id": 11,
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1667337750i/61885079.jpg",
+        "title": "A Good Family",
+        "type": "Drama",
+        "users": 39,
+        "describe": "Katie Kuhlmann's marriage is falling apart.",
+        "author": "Matt Goldman"
+    },
+    {
+        "id": 12,
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1674174574i/75553847.jpg",
+        "title": "Lying Lainey",
+        "type": "Drama",
+        "users": 39,
+        "describe": "When the Syndicate calls to collect their debt.",
+        "author": "Elizabeth Knight"
+    },
+    {
+        "id": 13,
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1661375819i/61918564.jpg",
+        "title": "Salvage This World",
+        "type": "Drama",
+        "users": 16,
+        "describe": "In Michael Farris Smith's latest riveting epic.",
+        "author": "Michael Farris Smith"
+    },
+    {
+        "id": 14,
+        "img":"https://m.media-amazon.com/images/I/41zjYDIWYAL._SX331_BO1,204,203,200_.jpg",
+        "title": "Paradoxes",
+        "type": "Logical",
+        "users": 28,
+        "describe": "The expanded and revised third edition of this intriguing book considers a range of knotty paradoxes including paradoxes about morals.",
+        "author": "R. M. Sainsbury"
+    },
+    {
+        "id": 15,
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659086907i/10964.jpg",
+        "title": "Outlander",
+        "type": "Love",
+        "users": 33,
+        "describe": "Claire Randall, a former combat nurse, is just back from the war.",
+        "author": "Diana Gabaldon"
+    },
+    {
+        "id": 16,
+        "img":"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1560955493l/50895445.jpg",
+        "title": "The Castle on Sunset",
+        "type": "Fraud",
+        "users": 2600,
+        "describe": "Life, Death, Love, Art, and Scandal at Hollywood's Chateau Marmont",
+        "author": "Shawn Levy"
+    }
+]
