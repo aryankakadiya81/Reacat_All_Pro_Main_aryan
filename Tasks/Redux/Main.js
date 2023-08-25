@@ -43,7 +43,9 @@ let Func = Store.subscribe(
 );
 
 Store.dispatch(Cake());
+
 Store.dispatch(Cake());
+
 Store.dispatch(Coco());
 
 

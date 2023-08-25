@@ -48,15 +48,22 @@ let Store = redux.createStore(Aryan);
 
 console.log("Initial", Store.getState());
 
-let Func = Store.subscribe(
+// let Func = Store.subscribe(
+//     () => {
+//         console.log("Update", Store.getState())
+//     }
+// );
+
+Store.subscribe(
     () => {
         console.log("Update", Store.getState())
     }
 );
 
 Store.dispatch(Cake());
-Store.dispatch(Coco());
 
+Store.dispatch(Coco());
+    
 Store.dispatch(Cake());
 
 Store.dispatch(Coco());
